@@ -1,0 +1,33 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+#demo h1 {
+  color: white;
+}
+#demo .box {
+  position: relative;
+}
+#demo .box .minibox {
+  background-color: #cc70cf;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+#demo .box .minibox1 {
+  position: absolute;
+  top: 622px;
+  right: 642px;
+  background-color: #cc70cf;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */
