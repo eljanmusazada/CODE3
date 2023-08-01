@@ -3,31 +3,38 @@ body {
   font-weight: 500;
 }
 
-a {
-  color: orange;
+header .menu {
+  position: fixed;
+  top: -7px;
+  right: -1px;
+  background-color: #212529;
+  width: 1921px;
+  height: 75px;
 }
-a:hover {
-  color: black;
+header .menu h2 {
+  color: #fdd036;
+  font-size: 25px;
+  position: absolute;
+  top: 30px;
+  left: 311px;
+}
+header .menu nav {
+  position: absolute;
+  top: 30px;
+  left: 1137px;
+}
+header .menu nav a {
+  margin-right: 20px;
+  font-size: 20px;
+}
+header .menu nav a:hover {
+  color: #fdd036;
 }
 
-#demo h1 {
-  color: white;
-}
-#demo .box {
-  position: relative;
-}
-#demo .box .minibox {
-  background-color: #cc70cf;
-  margin: 10px;
-  width: 200px;
-  height: 200px;
-}
-#demo .box .minibox1 {
+#welcome .box .imgbox img {
   position: absolute;
-  top: 622px;
-  right: 642px;
-  background-color: #cc70cf;
-  margin: 10px;
-  width: 200px;
-  height: 200px;
+  left: -7px;
+  top: -158px;
+  z-index: -1;
+  width: 1940px;
 }/*# sourceMappingURL=style.css.map */
