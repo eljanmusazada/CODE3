@@ -94,6 +94,7 @@ header .menu nav a:hover {
   height: 140px;
   position: relative;
   right: -135px;
+  z-index: -1;
 }
 #SERVICES .box .minibox .icon {
   font-size: 70px;
@@ -123,4 +124,9 @@ header .menu nav a:hover {
   font-weight: 400;
   margin: 29px -16px 20px -26px;
   line-height: 1.4;
+}
+
+#PORTFOLIO .boxone {
+  position: relative;
+  top: 200px;
 }/*# sourceMappingURL=style.css.map */
